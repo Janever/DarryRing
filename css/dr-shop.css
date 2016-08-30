@@ -1,0 +1,124 @@
+#shop-viewport {
+  width: 20rem;
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+#shop-viewport #carousel {
+  margin-top: 50px;
+}
+#shop-viewport #carousel .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+}
+#shop-viewport #carousel .swiper-pagination-bullet-active {
+  background-color: #dbdbdb;
+}
+#shop-viewport #guide ul {
+  overflow: hidden;
+}
+#shop-viewport #guide ul li {
+  padding-left: 2.7rem;
+  padding-top: 0.2rem;
+  width: 32%;
+  height: 3.75rem;
+  float: left;
+  margin: 7px;
+}
+#shop-viewport #guide ul li h4 {
+  font-size: 13px;
+  color: #c77a61;
+  font-weight: normal;
+  margin-top: 2px;
+}
+#shop-viewport #guide ul li p {
+  font-size: 12px;
+  color: #666;
+  padding-right: 0.3rem;
+}
+#shop-viewport #guide ul .pic1 {
+  background: url(../images/icon-zjsd.png) no-repeat 4% center;
+  background-color: #fff;
+  background-size: auto 60%;
+}
+#shop-viewport #guide ul .pic2 {
+  background: url(../images/icon-gzzd.png) no-repeat 4% center;
+  background-color: #fff;
+  background-size: auto 60%;
+}
+#shop-viewport #guide ul .pic3 {
+  background: url(../images/icon-zjby.png) no-repeat 4% center;
+  background-color: #fff;
+  background-size: auto 60%;
+  margin-top: 0;
+}
+#shop-viewport #guide ul .pic4 {
+  background: url(../images/icon-zjsj.png) no-repeat 4% center;
+  background-color: #fff;
+  background-size: auto 60%;
+  margin-top: 0;
+}
+#shop-viewport #city {
+  background-color: #fff;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+#shop-viewport #city h4 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #888;
+  background: url(../images/select_bottom.png) no-repeat right center;
+  background-size: 12px;
+}
+#shop-viewport #shops {
+  padding: 10px;
+}
+#shop-viewport #shops ul li {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+#shop-viewport #shops ul li .top {
+  padding: 10px;
+}
+#shop-viewport #shops ul li .top h4 {
+  font-weight: normal;
+}
+#shop-viewport #shops ul li .top p {
+  color: #888;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 18px;
+}
+#shop-viewport #shops ul li .bottom {
+  color: #c77a61;
+  border-top: 1px solid #eee;
+  padding: 10px;
+}
+#shop-viewport #shops ul li .bottom p {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+  background: url(../images/icon-mfyy.png) no-repeat 4px center;
+  background-size: 16px;
+}
+#shop-viewport #shops .page {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+#shop-viewport #shops .page a {
+  display: inline-block;
+  float: left;
+  width: 46%;
+  line-height: 40px;
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+  border: 1px solid #888888;
+}
+#shop-viewport #shops .page .next {
+  border: 1px solid #c77a61;
+  margin-left: 1.125rem;
+}

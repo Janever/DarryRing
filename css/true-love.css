@@ -1,0 +1,10 @@
+#true-viewport {
+  width: 20rem;
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+#true-viewport #fans-photo {
+  padding: 0.6rem 0;
+  margin-top: 50px;
+}

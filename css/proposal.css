@@ -1,0 +1,204 @@
+#proposal-viewport {
+  width: 20rem;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+#proposal-viewport header {
+  width: 100%;
+  max-width: 640px;
+  height: 49px;
+  line-height: 49px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 9;
+}
+#proposal-viewport header .iconfont {
+  font-size: 1.625rem;
+  color: #565656;
+  margin-left: 0.125rem;
+}
+#proposal-viewport header .list {
+  margin-left: 0.6rem;
+}
+#proposal-viewport header a {
+  text-decoration: none;
+}
+#proposal-viewport header a img {
+  width: 38%;
+  max-width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -23%;
+}
+#proposal-viewport header .user {
+  color: #ccc;
+  font-size: 1.8125rem;
+}
+#proposal-viewport header .home {
+  color: #ccc;
+  font-size: 1.875rem;
+}
+#proposal-viewport #service {
+  position: fixed;
+  top: 18rem;
+  right: 0;
+  z-index: 9;
+}
+#proposal-viewport #service img {
+  width: 40px;
+  height: 130px;
+}
+#proposal-viewport #slide {
+  width: 60%;
+  height: 100%;
+  padding-left: 1.25rem;
+  position: fixed;
+  top: 0;
+  left: -70%;
+  background-color: #fff;
+  z-index: 999;
+}
+#proposal-viewport #slide .close {
+  padding: 0.8rem 0.6rem 0.8rem 0;
+  overflow: hidden;
+}
+#proposal-viewport #slide .close img {
+  width: 12px;
+  height: 12px;
+  float: right;
+}
+#proposal-viewport #slide ul li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e6e6e6;
+}
+#proposal-viewport #slide ul li a {
+  color: #666;
+  font-size: 14px;
+}
+#proposal-viewport #slide .login {
+  color: #c39c36;
+  width: 90%;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: none;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+}
+#proposal-viewport #slide .login .iconfont {
+  font-size: 30px;
+}
+#proposal-viewport #slide .login a {
+  font-size: 16px;
+  width: 90%;
+  color: #c39c36;
+}
+#proposal-viewport .mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 9;
+}
+#proposal-viewport nav {
+  height: 50px;
+  line-height: 50px;
+  margin-top: 49px;
+  background-color: #797979;
+}
+#proposal-viewport nav .proposal {
+  color: #d3bdaf;
+}
+#proposal-viewport nav li a {
+  width: 25%;
+  text-align: center;
+  color: #fff;
+  background: url(../images/navline.jpg) no-repeat right center;
+}
+#proposal-viewport nav li .last {
+  background: none;
+}
+#proposal-viewport #theme .check {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: #e2d0c4;
+}
+#proposal-viewport #theme .check a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+  color: #8e4f1b;
+  font-size: 16px;
+}
+#proposal-viewport #detail {
+  padding-bottom: 0.5rem;
+}
+#proposal-viewport #detail ul {
+  padding: 0.5rem;
+}
+#proposal-viewport #detail ul li {
+  margin-top: 0.5rem;
+}
+#proposal-viewport #footer {
+  background-color: #fff;
+  text-align: center;
+}
+#proposal-viewport #footer .tell {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+}
+#proposal-viewport #footer .tell span {
+  padding-left: 1.4rem;
+  display: inline-block;
+  background: url(../images/tel.gif) no-repeat left center;
+  background-size: 1.1rem;
+}
+#proposal-viewport #footer .service {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+}
+#proposal-viewport #footer .service span {
+  padding-left: 1.4rem;
+  display: inline-block;
+  background: url(../images/zxkf2.gif) no-repeat left center;
+  background-size: 1rem;
+}
+#proposal-viewport #footer .back {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+  border-bottom: 1px solid #737373;
+  box-shadow: 0 0 2px 2px #cccccc;
+}
+#proposal-viewport #footer .back a {
+  display: inline-block;
+  width: 32%;
+  color: #333;
+  background: url(../images/navline.jpg) no-repeat right center;
+}
+#proposal-viewport #footer .back .last {
+  background: none;
+}
+#proposal-viewport #footer .about {
+  padding-top: 0.8rem;
+}
+#proposal-viewport #footer .about a {
+  display: inline-block;
+  width: 24%;
+  color: #717171;
+  background: url(../images/rpline.jpg) no-repeat right center;
+}
+#proposal-viewport #footer .about .last {
+  background: none;
+}
+#proposal-viewport #footer .href {
+  padding: 0.8rem 0;
+  color: #717171;
+}

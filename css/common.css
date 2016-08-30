@@ -1,0 +1,104 @@
+@import 'adapt.css';
+@import 'normalize.css';
+@import "iconfont.css";
+#home-viewport {
+  width: 20rem;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+#home-viewport header {
+  width: 20rem;
+  max-width: 640px;
+  height: 49px;
+  line-height: 49px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 9;
+}
+#home-viewport header .iconfont {
+  font-size: 1.625rem;
+  color: #565656;
+  margin-left: 0.125rem;
+}
+#home-viewport header .list {
+  margin-left: 0.6rem;
+}
+#home-viewport header a {
+  text-decoration: none;
+}
+#home-viewport header a img {
+  width: 38%;
+  max-width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -23%;
+}
+#home-viewport header .user {
+  color: #ccc;
+  font-size: 1.8125rem;
+}
+#home-viewport header .home {
+  color: #ccc;
+  font-size: 1.875rem;
+}
+#home-viewport #footer {
+  background-color: #fff;
+  text-align: center;
+}
+#home-viewport #footer .tell {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+}
+#home-viewport #footer .tell span {
+  padding-left: 1.4rem;
+  display: inline-block;
+  background: url(../images/tel.gif) no-repeat left center;
+  background-size: 20px;
+}
+#home-viewport #footer .service {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+}
+#home-viewport #footer .service span {
+  padding-left: 1.4rem;
+  display: inline-block;
+  background: url(../images/zxkf2.gif) no-repeat left center;
+  background-size: 18px;
+}
+#home-viewport #footer .back {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+  border-bottom: 1px solid #737373;
+  box-shadow: 0 0 2px 2px #cccccc;
+}
+#home-viewport #footer .back a {
+  display: inline-block;
+  width: 32%;
+  color: #333;
+  background: url(../images/navline.jpg) no-repeat right center;
+}
+#home-viewport #footer .back .last {
+  background: none;
+}
+#home-viewport #footer .about {
+  padding-top: 0.8rem;
+}
+#home-viewport #footer .about a {
+  display: inline-block;
+  width: 24%;
+  color: #717171;
+  background: url(../images/rpline.jpg) no-repeat right center;
+}
+#home-viewport #footer .about .last {
+  background: none;
+}
+#home-viewport #footer .href {
+  padding: 0.8rem 0;
+  color: #717171;
+}

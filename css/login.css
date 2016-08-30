@@ -1,0 +1,122 @@
+#login-viewport {
+  background-color: #f1f1f1;
+  width: 20rem;
+  margin: 0 auto;
+}
+#login-viewport #login {
+  margin-top: 49px;
+  padding-bottom: 5rem;
+}
+#login-viewport #login form {
+  padding: 1.5rem 0.5rem;
+}
+#login-viewport #login form input {
+  width: 100%;
+  text-indent: 5px;
+  font-size: 15px;
+  border: none;
+  padding: 0.7rem 0rem;
+  outline: none;
+}
+#login-viewport #login form .pub {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+}
+#login-viewport #login form .clear {
+  width: 1rem;
+  height: 1rem;
+  line-height: 0.9rem;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  background-color: #ccc;
+  position: absolute;
+  top: 14px;
+  right: 8px;
+}
+#login-viewport #login form .phone {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#login-viewport #login form .pass {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#login-viewport #login form .btn {
+  margin: 20px 10px;
+  overflow: hidden;
+}
+#login-viewport #login form .btn .fl {
+  background-color: #e8566d;
+}
+#login-viewport #login form .btn .fr {
+  background-color: #545454;
+}
+#login-viewport #login form .btn .fr a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 42px;
+  color: #fff;
+}
+#login-viewport #login form .btn button {
+  width: 8.2rem;
+  height: 44px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+}
+#login-viewport #login form .other {
+  margin: 40px 10px;
+}
+#login-viewport #login form .other span {
+  font-size: 16px;
+  color: #666;
+  vertical-align: middle;
+}
+#login-viewport #login form .other a {
+  display: inline-block;
+  margin-right: 0.8rem;
+  vertical-align: middle;
+}
+#login-viewport #login form .other a img {
+  width: 24px;
+  height: 24px;
+}
+#login-viewport #login form .forget {
+  margin: 40px 10px;
+}
+#login-viewport #login form .forget a {
+  display: block;
+  margin-top: 6px;
+  font-size: 16px;
+  color: #666;
+  text-decoration: underline;
+}
+#login-viewport #login .tip {
+  width: 20rem;
+  height: 49px;
+  line-height: 49px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: #da4f49;
+  z-index: 99;
+  display: none;
+}

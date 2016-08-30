@@ -1,0 +1,255 @@
+#gift-viewport {
+  width: 20rem;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+#gift-viewport header {
+  width: 100%;
+  max-width: 640px;
+  height: 49px;
+  line-height: 49px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 9;
+}
+#gift-viewport header .iconfont {
+  font-size: 1.625rem;
+  color: #565656;
+  margin-left: 0.125rem;
+}
+#gift-viewport header .list {
+  margin-left: 0.6rem;
+}
+#gift-viewport header a {
+  text-decoration: none;
+}
+#gift-viewport header a img {
+  width: 38%;
+  max-width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -23%;
+}
+#gift-viewport header .user {
+  color: #ccc;
+  font-size: 1.8125rem;
+}
+#gift-viewport header .home {
+  color: #ccc;
+  font-size: 1.875rem;
+}
+#gift-viewport #service {
+  position: fixed;
+  top: 18rem;
+  right: 0;
+  z-index: 9;
+}
+#gift-viewport #service img {
+  width: 40px;
+  height: 130px;
+}
+#gift-viewport #slide {
+  width: 60%;
+  height: 100%;
+  padding-left: 1.25rem;
+  position: fixed;
+  top: 0;
+  left: -70%;
+  background-color: #fff;
+  z-index: 999;
+}
+#gift-viewport #slide .close {
+  padding: 0.8rem 0.6rem 0.8rem 0;
+  overflow: hidden;
+}
+#gift-viewport #slide .close img {
+  width: 12px;
+  height: 12px;
+  float: right;
+}
+#gift-viewport #slide ul li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e6e6e6;
+}
+#gift-viewport #slide ul li a {
+  color: #666;
+  font-size: 14px;
+}
+#gift-viewport #slide .login {
+  color: #c39c36;
+  width: 90%;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: none;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+}
+#gift-viewport #slide .login .iconfont {
+  font-size: 30px;
+}
+#gift-viewport #slide .login a {
+  font-size: 16px;
+  width: 90%;
+  color: #c39c36;
+}
+#gift-viewport .mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 9;
+}
+#gift-viewport nav {
+  height: 50px;
+  line-height: 50px;
+  margin-top: 49px;
+  background-color: #797979;
+}
+#gift-viewport nav .gift {
+  color: #d3bdaf;
+}
+#gift-viewport nav li a {
+  width: 25%;
+  text-align: center;
+  color: #fff;
+  background: url(../images/navline.jpg) no-repeat right center;
+}
+#gift-viewport nav li .last {
+  background: none;
+}
+#gift-viewport #theme .check {
+  padding: 0.6rem 0;
+  text-align: center;
+  background-color: #f5d6c8;
+  box-shadow: 0 0 0 3px #dbdbdb;
+}
+#gift-viewport #theme .check a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+  color: #8e4f1b;
+  font-size: 16px;
+}
+#gift-viewport #introduce {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 0.5rem 0;
+}
+#gift-viewport #introduce ul {
+  padding: 0.5rem;
+}
+#gift-viewport #introduce ul li {
+  width: 2.75rem;
+  height: 30px;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 14px;
+  margin-bottom: 10px;
+  float: left;
+  color: #e8566d;
+  border: 1px solid #e8566d;
+}
+#gift-viewport #introduce ul .all {
+  background-color: #e8566d;
+  color: #fff;
+}
+#gift-viewport #detail {
+  padding-bottom: 2rem;
+}
+#gift-viewport #detail ul {
+  padding: 0.5rem 0;
+  overflow: hidden;
+}
+#gift-viewport #detail ul li {
+  width: 48%;
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+  font-size: 12px;
+  float: left;
+}
+#gift-viewport #detail ul li p {
+  color: #666;
+  height: 35px;
+  overflow: hidden;
+}
+#gift-viewport #detail ul li span {
+  color: #fb3b3b;
+}
+#gift-viewport #detail ul li .top {
+  background-color: #fff;
+  text-align: center;
+}
+#gift-viewport #detail ul li .top img {
+  width: 140px;
+  height: 140px;
+}
+#gift-viewport #detail ul li .bottom {
+  background-color: #fff;
+  padding: 0.6rem;
+  border-top: 1px solid #ebebeb;
+}
+#gift-viewport #footer {
+  background-color: #fff;
+  text-align: center;
+}
+#gift-viewport #footer .tell {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+}
+#gift-viewport #footer .tell span {
+  padding-left: 1.4rem;
+  display: inline-block;
+  background: url(../images/tel.gif) no-repeat left center;
+  background-size: 20px;
+}
+#gift-viewport #footer .service {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+}
+#gift-viewport #footer .service span {
+  padding-left: 1.4rem;
+  display: inline-block;
+  background: url(../images/zxkf2.gif) no-repeat left center;
+  background-size: 18px;
+}
+#gift-viewport #footer .back {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+  border-bottom: 1px solid #737373;
+  box-shadow: 0 0 2px 2px #cccccc;
+}
+#gift-viewport #footer .back a {
+  display: inline-block;
+  width: 32%;
+  color: #333;
+  background: url(../images/navline.jpg) no-repeat right center;
+}
+#gift-viewport #footer .back .last {
+  background: none;
+}
+#gift-viewport #footer .about {
+  padding-top: 0.8rem;
+}
+#gift-viewport #footer .about a {
+  display: inline-block;
+  width: 24%;
+  color: #717171;
+  background: url(../images/rpline.jpg) no-repeat right center;
+}
+#gift-viewport #footer .about .last {
+  background: none;
+}
+#gift-viewport #footer .href {
+  padding: 0.8rem 0;
+  color: #717171;
+}

@@ -1,0 +1,105 @@
+@import 'adapt.css';
+@import 'normalize.css';
+@import "iconfont.css";
+#home-viewport {
+  width: 20rem;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+header {
+  width: 20rem;
+  max-width: 640px;
+  height: 49px;
+  line-height: 49px;
+  text-align: center;
+  border-bottom: 1px solid #e1caba;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 9;
+}
+header .user-login {
+  font-size: 20px;
+  color: #ca8565;
+}
+header .iconfont {
+  font-size: 1.625rem;
+  color: #565656;
+  margin-left: 0.125rem;
+}
+header .back {
+  margin-left: 0.6rem;
+  color: #ccc;
+}
+header a {
+  text-decoration: none;
+}
+header .user {
+  color: #ccc;
+  font-size: 1.8125rem;
+}
+header .home {
+  color: #ccc;
+  font-size: 1.5625rem;
+  padding-top: 3px;
+  margin-right: 0.2rem;
+}
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+#footer .tell {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+}
+#footer .tell span {
+  padding-left: 1.4rem;
+  display: inline-block;
+  background: url(../images/tel.gif) no-repeat left center;
+  background-size: 20px;
+}
+#footer .service {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+}
+#footer .service span {
+  padding-left: 1.4rem;
+  display: inline-block;
+  background: url(../images/zxkf2.gif) no-repeat left center;
+  background-size: 18px;
+}
+#footer .back {
+  padding: 0.5rem 0;
+  border-top: 1px solid #737373;
+  border-bottom: 1px solid #737373;
+  box-shadow: 0 0 2px 2px #cccccc;
+}
+#footer .back a {
+  display: inline-block;
+  width: 32%;
+  color: #333;
+  background: url(../images/navline.jpg) no-repeat right center;
+}
+#footer .back .last {
+  background: none;
+}
+#footer .about {
+  padding-top: 0.8rem;
+}
+#footer .about a {
+  display: inline-block;
+  width: 24%;
+  color: #717171;
+  background: url(../images/rpline.jpg) no-repeat right center;
+}
+#footer .about .last {
+  background: none;
+}
+#footer .href {
+  padding: 0.8rem 0;
+  color: #717171;
+}

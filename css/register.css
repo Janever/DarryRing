@@ -1,0 +1,114 @@
+#register-viewport {
+  background-color: #f1f1f1;
+  width: 20rem;
+  margin: 0 auto;
+}
+#register-viewport #login {
+  margin-top: 49px;
+}
+#register-viewport #login form {
+  padding: 1.5rem 0.5rem;
+}
+#register-viewport #login form input {
+  width: 100%;
+  text-indent: 5px;
+  font-size: 15px;
+  border: none;
+  padding: 0.7rem 0rem;
+  outline: none;
+}
+#register-viewport #login form .pub {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  margin-bottom: 15px;
+}
+#register-viewport #login form .clear {
+  width: 1rem;
+  height: 1rem;
+  line-height: 1.1rem;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  background-color: #ccc;
+  position: absolute;
+  top: 14px;
+  right: 8px;
+}
+#register-viewport #login form .btn {
+  margin: 40px 10px;
+  overflow: hidden;
+}
+#register-viewport #login form .btn button {
+  width: 100%;
+  height: 44px;
+  border: none;
+  background-color: #e8566d;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+}
+#register-viewport #login form .btn button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 42px;
+  color: #fff;
+}
+#register-viewport #login form .other {
+  margin: 40px 10px;
+  text-align: center;
+  position: relative;
+}
+#register-viewport #login form .other .line span {
+  display: inline-block;
+  font-size: 16px;
+  color: #c57d5c;
+  background: #f1f1f1;
+  vertical-align: middle;
+  z-index: 2;
+  padding: 0 10px;
+  position: relative;
+}
+#register-viewport #login form .other .line i {
+  width: 100%;
+  height: 1px;
+  background-color: #c57d5c;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  z-index: 1;
+}
+#register-viewport #login form .other a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-right: 0.8rem;
+  vertical-align: middle;
+}
+#register-viewport #login form .other a img {
+  width: 24px;
+  height: 24px;
+}
+#register-viewport #login form .verify-code .voice {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 43px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #ff986b;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

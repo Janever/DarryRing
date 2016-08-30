@@ -1,0 +1,57 @@
+#brand-viewport {
+  width: 20rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+#brand-viewport #brand {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+}
+#brand-viewport #brand .title {
+  padding: 0.2rem;
+  padding-bottom: 5rem;
+}
+#brand-viewport #brand .title .love {
+  margin-top: -0.5rem;
+  display: inline-block;
+  margin-left: 90px;
+}
+#brand-viewport #brand .title .love span {
+  vertical-align: bottom;
+}
+#brand-viewport #brand .title .love img {
+  width: 4rem;
+  height: 2rem;
+  display: inline-block;
+  vertical-align: bottom;
+}
+#brand-viewport #true-love ul {
+  overflow: hidden;
+  padding: 2.5rem 0.5rem;
+  border-top: 1px solid #000000;
+}
+#brand-viewport #true-love ul li {
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+#brand-viewport #true-love ul li .pic {
+  width: 40%;
+  float: left;
+}
+#brand-viewport #true-love ul li .txt {
+  width: 54%;
+  float: left;
+  margin-left: 1rem;
+}
+#brand-viewport #true-love ul li .txt h4 {
+  font-size: 16px;
+  color: #e8566d;
+  font-weight: normal;
+}
+#brand-viewport #true-love ul li .txt p {
+  font-size: 12px;
+  color: #666;
+  line-height: 24px;
+}

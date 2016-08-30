@@ -1,0 +1,25 @@
+#star-viewport {
+  width: 20rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+#star-viewport #star {
+  margin-top: 60px;
+  text-align: center;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+}
+#star-viewport #star .star {
+  margin-bottom: 3rem;
+}
+#star-viewport #star .star h4 {
+  font-size: 16px;
+  color: #e8566d;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+#star-viewport #star .star p {
+  color: #666;
+  line-height: 24px;
+  margin-top: 1rem;
+}

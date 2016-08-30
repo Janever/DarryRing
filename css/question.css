@@ -1,0 +1,75 @@
+#question-viewport {
+  width: 20rem;
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+#question-viewport #content {
+  padding: 0.6rem 0;
+  margin-top: 50px;
+}
+#question-viewport #content ul {
+  padding-left: 1rem;
+  background-color: #fff;
+}
+#question-viewport #content ul li {
+  padding: 1rem 0;
+  padding-right: 1.5rem;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+}
+#question-viewport #content ul li .iconfont {
+  font-size: 16px;
+  color: #ccc;
+  font-weight: bold;
+  position: absolute;
+  top: 18px;
+  right: 11px;
+}
+#question-viewport #content ul li a {
+  font-size: 16px;
+  color: #666;
+}
+#question-viewport #content ul .tit1 {
+  background: url(../images/store.png) no-repeat left center;
+}
+#question-viewport #content ul .tit2 {
+  background: url(../images/love-1.png) no-repeat left center;
+}
+#question-viewport #content ul .tit3 {
+  background: url(../images/buy_xz.png) no-repeat left center;
+}
+#question-viewport #content ul .tit4 {
+  background: url(../images/zs.png) no-repeat left center;
+}
+#question-viewport #content ul .tit5 {
+  background: url(../images/dz.png) no-repeat left center;
+}
+#question-viewport #content ul .tit6 {
+  background: url(../images/fh.png) no-repeat left center;
+}
+#question-viewport #content ul .tit7 {
+  background: url(../images/shorder.png) no-repeat left center;
+}
+#question-viewport #content ul .tit8 {
+  background: url(../images/yj.png) no-repeat left center;
+}
+#question-viewport #content ul .tit9 {
+  background: url(../images/kf.png) no-repeat left center;
+}
+#question-viewport #content ul .tit {
+  padding-left: 2.5rem;
+  background-size: 1.7rem;
+}
+#question-viewport #wechat {
+  text-align: center;
+  padding: 2rem 0;
+}
+#question-viewport #wechat p {
+  font-size: 13px;
+  color: #666;
+}
+#question-viewport #wechat span {
+  color: #ff6600;
+  font-size: 13px;
+}
